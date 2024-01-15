@@ -8,6 +8,10 @@
   justify-content: space-evenly;
   padding: 16px;
 }
+head {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
 
 body {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
@@ -16,6 +20,7 @@ body {
 
 a {
   font-size: 18px;
+  font-weight: 100;
   color: #e5e7eb;
   text-decoration: none;
 }
@@ -30,15 +35,21 @@ a {
 }
 
 .hero {
-  font-size: 48px;
-  font-weight: 800;
-  color: #f9faf8;
   background: #1f2937;
   height: 500px;
 }
 
-.hero .secondary {
+.hero,
+.primary {
+  font-size: 48px;
+  font-weight: 800;
+  color: #f9faf8;
+}
+
+.hero,
+.secondary {
   font-size: 18px;
+  font-weight: normal;
   color: #e5e7eb;
 }
 
@@ -47,8 +58,10 @@ button {
   background: #3882f6;
   border: #3882f6;
   cursor: pointer;
-  padding: 8px 16px;
+  padding: 8px 24px;
   border-radius: 8px;
+  font-size: 16px;
+  font-weight: 600;
 }
 
 .container {
@@ -59,8 +72,30 @@ button {
   text-align: left;
 }
 
+.info {
+  font-size: 36px;
+  font-weight: 800;
+  color: #1f2937;
+  display: flex;
+  justify-content: center;
+  padding: 75px;
+}
+
+.infocontainer {
+  display: flex;
+  justify-content: center;
+  align-items: normal;
+}
+
+.image {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  gap: 8px;
+}
+
 img {
-  padding: 0 48px;
+  padding: 0 32px;
 }
 
 .footer {
