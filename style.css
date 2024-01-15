@@ -78,7 +78,7 @@ button {
   color: #1f2937;
   display: flex;
   justify-content: center;
-  padding: 75px;
+  padding: 50px;
 }
 
 .infocontainer {
@@ -92,6 +92,40 @@ button {
   flex-flow: column;
   align-items: center;
   gap: 8px;
+  padding: 50px 0;
+}
+
+.quote {
+  background: #e5e7eb;
+  color: #1f2937;
+  font-size: 36px;
+  font-weight: lighter;
+  font-style: italic;
+  padding: 100px;
+  display: flex;
+  flex-flow: column;
+}
+
+.signature {
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 800;
+  display: flex;
+  justify-content: end;
+}
+
+.signup {
+  background: #3882f6;
+  color: white;
+  font-size: 24px;
+  display: flex;
+  flex-flow: column;
+  text-align: left;
+  justify-content: space-evenly;
+}
+
+.subtext {
+  font-size: 18px;
 }
 
 img {
