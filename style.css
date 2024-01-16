@@ -49,15 +49,28 @@ a {
   color: #e5e7eb;
 }
 
-button {
+button1 {
   color: white;
   background: #3882f6;
-  border: #3882f6;
   cursor: pointer;
   padding: 8px 24px;
   border-radius: 8px;
-  font-size: 16px;
-  font-weight: 600;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+button2 {
+  color: white;
+  border-style: solid;
+  border-color: white;
+  cursor: pointer;
+  padding: 8px 24px;
+  border-radius: 8px;
+  font-size: 18px;
+  font-weight: 700;
+  text-align: center;
+  display: flex;
+  align-items: center;
 }
 
 .container {
@@ -110,30 +123,27 @@ button {
 
 .endcontainer {
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   padding: 100px 100px;
 }
 
-.signup {
+.signupcontainer {
   background: #3882f6;
   color: white;
   font-size: 24px;
   font-weight: 500;
   display: flex;
-  flex-flow: column;
-  text-align: left;
-  justify-content: space-evenly;
-  padding: 24px 250px;
+  padding: 50px 150px;
   border-radius: 8px;
+}
+
+.signup {
+  padding: 0 50px;
 }
 
 .subtext {
   font-size: 18px;
   font-weight: 100;
-}
-
-.buttonend {
-  border: white;
 }
 
 img {
