@@ -2,20 +2,17 @@
   color: #f9faf8;
   font-size: 24px;
   font-weight: 900;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   display: flex;
   justify-content: space-evenly;
   padding: 16px;
 }
 head {
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 body {
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 a {
@@ -27,7 +24,6 @@ a {
 
 .links {
   display: flex;
-  list-style: none;
   padding: 0 200px;
   gap: 16px;
   font-size: 18px;
@@ -76,15 +72,13 @@ button {
   font-size: 36px;
   font-weight: 800;
   color: #1f2937;
-  display: flex;
-  justify-content: center;
-  padding: 50px;
+  text-align: center;
+  margin-top: 100px;
 }
 
 .infocontainer {
   display: flex;
   justify-content: center;
-  align-items: normal;
 }
 
 .image {
@@ -92,7 +86,7 @@ button {
   flex-flow: column;
   align-items: center;
   gap: 8px;
-  padding: 50px 0;
+  padding: 120px 0;
 }
 
 .quote {
@@ -101,7 +95,7 @@ button {
   font-size: 36px;
   font-weight: lighter;
   font-style: italic;
-  padding: 100px;
+  padding: 150px;
   display: flex;
   flex-flow: column;
 }
@@ -114,18 +108,32 @@ button {
   justify-content: end;
 }
 
+.endcontainer {
+  display: flex;
+  justify-content: center;
+  padding: 100px 100px;
+}
+
 .signup {
   background: #3882f6;
   color: white;
   font-size: 24px;
+  font-weight: 500;
   display: flex;
   flex-flow: column;
   text-align: left;
   justify-content: space-evenly;
+  padding: 24px 250px;
+  border-radius: 8px;
 }
 
 .subtext {
   font-size: 18px;
+  font-weight: 100;
+}
+
+.buttonend {
+  border: white;
 }
 
 img {
